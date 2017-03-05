@@ -8,6 +8,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\SocialAccountService;
 use Socialite;
+use Auth;
+use Redirect;
 
 class SocialAuthController extends Controller
 {
