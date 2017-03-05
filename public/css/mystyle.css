@@ -1,0 +1,73 @@
+body{
+	font-family: Century Gothic,Arial,Helvetica,sans-serif;
+}
+
+
+/*NAVIGATION BAR*/
+.nav-wrapper{
+	background-color:#fafafa;
+	color: #000;
+	font-family: Century Gothic,Arial,Helvetica,sans-serif;
+}
+
+.logouticon{
+	color: #000;
+}
+
+
+/*VIEW ALL BOOKS*/
+.allbookstable th, td {
+    padding: 5px;
+}
+
+
+/*VIEW BOOK*/
+.booktimeline{
+	background-image: url(../images/timelinecover.jpg);
+	background-size: cover;
+	height: 160px;
+}
+
+.timelinebookphoto img{
+	height:200px;
+	width:150px;
+	margin-top: -80px;
+	border:3px solid #fafafa;
+}
+
+.timelinebooktitle{
+	margin-top: -80px;
+	margin-left: -10px;
+	color: #fafafa;
+	font-style: bold;
+}
+
+.timelinebookauthor{
+	margin-top:-10px;
+	margin-left: -10px;
+	font-size: 20px;
+	color: #fafafa;
+}
+
+.timelinebookdescription{
+	background-color: #0b090900;
+	height:auto;
+	width: 260px;
+	margin-top: 30px;
+	margin-left: -70px;
+	font-size: 12px;
+	font-style: italic;
+	text-align: justify;
+}
+
+.timelinebookdescription p{
+	padding:20px;
+}
+
+.commentsection p{
+	padding: 15px;
+}
+
+.chipcomment{
+	padding-top: 2%;
+}
